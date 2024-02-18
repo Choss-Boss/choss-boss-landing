@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "./static/css/main.ae42ac5f.css",
-    "main.js": "./static/js/main.9e93f871.js",
-    "index.html": "./index.html",
-    "main.ae42ac5f.css.map": "./static/css/main.ae42ac5f.css.map",
-    "main.9e93f871.js.map": "./static/js/main.9e93f871.js.map"
+    "main.css": "/choss-boss-landing/static/css/main.ae42ac5f.css",
+    "main.js": "/choss-boss-landing/static/js/main.9e93f871.js",
+    "index.html": "/choss-boss-landing/index.html",
+    "main.ae42ac5f.css.map": "/choss-boss-landing/static/css/main.ae42ac5f.css.map",
+    "main.9e93f871.js.map": "/choss-boss-landing/static/js/main.9e93f871.js.map"
   },
   "entrypoints": [
     "static/css/main.ae42ac5f.css",
