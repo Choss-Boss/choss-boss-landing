@@ -13,6 +13,7 @@ h3,
 h4 {
   font-family: "Raleway", sans-serif;
 }
+
 h2 {
   text-transform: uppercase;
   margin: 0 0 20px;
@@ -76,7 +77,8 @@ hr {
   transition: all 0.8s;
 }
 #menu.navbar-default {
-  background-color: #fff;
+  background: #1e1e2e; /* mocha-base */
+  /* background-color: #fff; */
   border-color: rgba(231, 231, 231, 0);
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
 }
@@ -104,7 +106,13 @@ hr {
   bottom: -1px;
   width: 0;
   height: 2px;
-  background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
+  /* background: linear-gradient(to right, #306133 0%, #03cb2b 100%) !important; */
+
+  background: linear-gradient(
+    to right,
+    #8caaee 0%,
+    #81c8be 100%
+  ) !important; /* blue-teal gradient */
   content: "";
   transition: width 0.2s;
 }
@@ -125,7 +133,13 @@ hr {
   bottom: -1px !important;
   width: 100% !important;
   height: 2px !important;
-  background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%) !important;
+  /* background: linear-gradient(to right, #306133 0%, #03cb2b 100%) !important; */
+
+  background: linear-gradient(
+    to right,
+    #8caaee 0%,
+    #81c8be 100%
+  ) !important; /* blue-teal gradient */
   content: "" !important;
   transition: width 0.2s !important;
 }
@@ -152,7 +166,13 @@ hr {
 .section-title h2::after {
   position: absolute;
   content: "";
-  background: linear-gradient(to right, #5ca9fb 0%, #6372ff 100%);
+  /* background: linear-gradient(to right, #306133 0%, #03cb2b 100%) !important; */
+
+  background: linear-gradient(
+    to right,
+    #8caaee 0%,
+    #81c8be 100%
+  ) !important; /* blue-teal gradient */
   height: 4px;
   width: 60px;
   bottom: 0;
@@ -167,7 +187,13 @@ hr {
   text-transform: uppercase;
   color: #fff;
   background-color: #5ca9fb;
-  background-image: linear-gradient(to right, #5ca9fb 0%, #6372ff 100%);
+  /* background: linear-gradient(to right, #306133 0%, #03cb2b 100%) !important; */
+
+  background: linear-gradient(
+    to right,
+    #8caaee 0%,
+    #81c8be 100%
+  ) !important; /* blue-teal gradient */
   padding: 14px 34px;
   letter-spacing: 1px;
   margin: 0;
@@ -208,7 +234,7 @@ a:focus,
   display: table;
   width: 100%;
   padding: 0;
-  background: url(../img/intro-bg.jpg) center center no-repeat;
+  background: url(../img/honnold.jpeg) center center no-repeat;
   background-color: #e5e5e5;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -246,7 +272,8 @@ header .intro-text {
 }
 /* Features Section */
 #features {
-  background: #f6f6f6;
+  /* background: #f6f6f6; */
+  background: #292c3c; /* frappe-mantle */
 }
 #features i.fa {
   font-size: 38px;
@@ -257,12 +284,18 @@ header .intro-text {
   height: 100px;
   padding: 30px 0;
   border-radius: 50%;
-  background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
+  background: linear-gradient(
+    to right,
+    #8caaee 0%,
+    #81c8be 100%
+  ) !important; /* blue-teal gradient */
+  /* background: linear-gradient(to right, #306133 0%, #03cb2b 100%) !important; */
   box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.05);
 }
 /* About Section */
 #about {
-  padding: 100px 0;
+  background: #414559; /* frappe-surface */
+  padding: 40px 0;
 }
 #about h3 {
   font-size: 22px;
@@ -276,7 +309,13 @@ header .intro-text {
 #about h2::after {
   position: absolute;
   content: "";
-  background: linear-gradient(to right, #5ca9fb 0%, #6372ff 100%);
+  /* background: linear-gradient(to right, #306133 0%, #03cb2b 100%) !important; */
+
+  background: linear-gradient(
+    to right,
+    #8caaee 0%,
+    #81c8be 100%
+  ) !important; /* blue-teal gradient */
   height: 4px;
   width: 60px;
   bottom: 0;
@@ -297,11 +336,9 @@ header .intro-text {
   padding-right: 8px;
 }
 #about img {
-  width: 520px;
-  margin-top: 10px;
-  background: #fff;
+  height: 400px;
+  margin-top: 0px;
   border-right: 0;
-  box-shadow: 0 0 50px rgba(0, 0, 0, 0.06);
 }
 #about p {
   line-height: 24px;
@@ -310,7 +347,8 @@ header .intro-text {
 /* Services Section */
 #services {
   padding: 100px 0;
-  background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
+  /* background: linear-gradient(to right, #306133 0%, #03cb2b 100%) !important; */
+  background: #292c3c; /* frappe-mantle */
   color: #fff;
 }
 #services .service-desc {
@@ -334,7 +372,13 @@ header .intro-text {
   width: 120px;
   height: 120px;
   padding: 40px 0;
-  background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
+  /* background: linear-gradient(to right, #306133 0%, #03cb2b 100%) !important; */
+
+  background: linear-gradient(
+    to right,
+    #8caaee 0%,
+    #81c8be 100%
+  ) !important; /* blue-teal gradient */
   border-radius: 50%;
   color: #fff;
   box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.05);
@@ -441,6 +485,7 @@ header .intro-text {
 }
 /* Team Section */
 #team {
+  background: #292c3c; /* frappe-mantle */
   padding: 100px 0;
 }
 #team h4 {
@@ -460,7 +505,8 @@ header .intro-text {
 /* Contact Section */
 #contact {
   padding: 100px 0 60px;
-  background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
+  /* background: linear-gradient(to right, #306133 0%, #03cb2b 100%) !important; */
+  background: #1e1e2e; /* mocha-base */
   color: rgba(255, 255, 255, 0.75);
 }
 #contact .section-title {
