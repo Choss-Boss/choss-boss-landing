@@ -3,7 +3,8 @@ html {
   font-family: "Open Sans", sans-serif;
   text-rendering: optimizeLegibility !important;
   -webkit-font-smoothing: antialiased !important;
-  color: #777;
+  /* color: #777; */
+  color: #b5bfe2; /* subtext 1 */
   font-weight: 400;
   width: 100% !important;
   height: 100% !important;
@@ -19,16 +20,19 @@ h2 {
   margin: 0 0 20px;
   font-weight: 800;
   font-size: 36px;
-  color: #333;
+  /* color: #333; */
+  color: #c6d0f5; /* text */
 }
 h3 {
   font-size: 20px;
   font-weight: 600;
-  color: #333;
+  /* color: #333; */
+  color: #c6d0f5; /* text */
 }
 h4 {
   font-size: 18px;
-  color: #333;
+  /* color: #333; */
+  color: #c6d0f5; /* text */
   font-weight: 600;
 }
 h5 {
@@ -86,13 +90,15 @@ hr {
   font-family: "Raleway", sans-serif;
   font-size: 24px;
   font-weight: 700;
-  color: #333;
+  /* color: #333; */
+  color: #c6d0f5; /* text */
   text-transform: uppercase;
 }
 #menu.navbar-default .navbar-nav > li > a {
   font-family: "Lato", sans-serif;
   text-transform: uppercase;
-  color: #555;
+  /* color: #555; */
+  color: #c6d0f5; /* text */
   font-size: 15px;
   font-weight: 400;
   padding: 8px 2px;
@@ -246,7 +252,8 @@ a:focus,
 }
 .intro h1 {
   font-family: "Raleway", sans-serif;
-  color: #fff;
+  /* color: #fff; */
+  color: #c6d0f5; /* text */
   font-size: 82px;
   font-weight: 700;
   text-transform: uppercase;
@@ -258,7 +265,8 @@ a:focus,
   color: #5ca9fb;
 }
 .intro p {
-  color: #fff;
+  /* color: #fff; */
+  color: #c6d0f5; /* text */
   font-size: 22px;
   font-weight: 300;
   line-height: 30px;
@@ -516,7 +524,8 @@ header .intro-text {
   font-size: 16px;
 }
 #contact h2 {
-  color: #fff;
+  /* color: #fff; */
+  color: #c6d0f5; /* text */
   margin-top: 10px;
   margin-bottom: 15px;
   padding-bottom: 15px;
@@ -531,7 +540,8 @@ header .intro-text {
   left: 30px;
 }
 #contact h3 {
-  color: #fff;
+  /* color: #fff; */
+  color: #c6d0f5; /* text */
   margin-top: 80px;
   margin-bottom: 25px;
   padding-bottom: 20px;
@@ -552,6 +562,7 @@ header .intro-text {
 #contact .btn-custom:hover {
   color: #1f386e;
   background: #fff;
+  /* background: #414559; /* frappe-surface */ */
 }
 label {
   font-size: 12px;
@@ -565,8 +576,10 @@ label {
   padding: 6px 12px;
   font-size: 16px;
   line-height: 1.42857143;
-  color: #444;
-  background-color: #fff;
+  /* color: #444; */
+  color: #c6d0f5; /* text */
+  /* background-color: #fff; */
+  background: #292c3c; /* frappe-mantle */
   background-image: none;
   border: 1px solid #ddd;
   border-radius: 0;
@@ -627,7 +640,8 @@ label {
 }
 #contact .social i.fa:hover {
   color: #608dfd;
-  background: #fff;
+  /* background: #fff; */
+  background: #414559; /* frappe-surface */
 }
 /* Footer Section*/
 #footer {
